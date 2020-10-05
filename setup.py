@@ -12,8 +12,9 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/zzl-ffzg/reldi-tokeniser",
-    packages=setuptools.find_packages(),
-    data_files=[('reldi_hr_tokeniser', ['reldi_hr_tokeniser/hr.abbrev'])],
+    packages=['reldi_hr_tokeniser'],
+    package_dir={'reldi_hr_tokeniser': 'reldi_hr_tokeniser'},
+    package_data={'reldi_hr_tokeniser': ['data/reldi_hr_tokeniser/hr.abbrev']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache License",

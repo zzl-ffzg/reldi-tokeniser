@@ -1,1 +1,1 @@
-include reldi_hr_tokeniser/hr.abbrev
+include reldi_hr_tokeniser/data/hr.abbrev

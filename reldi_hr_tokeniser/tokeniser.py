@@ -1,9 +1,10 @@
+import os
 import re
 
 
 def read_abbrevs(file):
     abbrevs = {'B': [], 'N': [], 'S': []}
-    for line in open(file, 'r'):
+    for line in open(os.path.join('data', file)):
         if not line.startswith('#'):
             abbrev, typ = line.strip().split('\t')[:2]
             abbrevs[typ].append(abbrev)
