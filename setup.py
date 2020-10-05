@@ -15,6 +15,7 @@ setuptools.setup(
     packages=['reldi_hr_tokeniser'],
     package_dir={'reldi_hr_tokeniser': 'reldi_hr_tokeniser'},
     package_data={'reldi_hr_tokeniser': ['data/reldi_hr_tokeniser/hr.abbrev']},
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache License",
