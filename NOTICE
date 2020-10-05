@@ -1,0 +1,2 @@
+This is the modified version of the tokeniser for Slovene, Croatian, Serbian, Macedonian and Bulgarian developed within the ReLDI project (https://reldi.spur.uzh.ch).
+In this version, support for all languages except Croatian was removed, as well as support for non-standard language. Additionally, sentence splitter was modified so that it is more suited to legal texts.
